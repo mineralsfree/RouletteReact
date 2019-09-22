@@ -11,7 +11,7 @@ export const Socket = {
     },
     send: function(data){
         this.socket.send(JSON.stringify(data));
-        console.log(data);
+       console.log(data);
 
     }
 };
